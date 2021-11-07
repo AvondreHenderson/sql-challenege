@@ -1,5 +1,13 @@
 # sql-challenege
 
+## Assignment Details
+#### It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+#### In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+
+
+#### Data Modeling and Data Engineering
+#### Data Analysis
+
 ## Using SQL we were tasked with finding the below data analysis
 #### 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 #### 2. List first name, last name, and hire date for employees who were hired in 1986.
@@ -12,10 +20,10 @@
 
 ## Description of Files in the Repository
 ### CSV FILES
-#### Contains all of the individual CSV files that contain the data
+####  - Contains all of the individual CSV files that contain the data
 ### SQL SCHEMATA
-####  - (InsertFileName for table schema), contains the code for creating the individual tables from the CSV files. 
-####  - (InsertFileName for query schema), contains the code for creating the queries related to the above questions. 
+####  - TableCreation.sql, contains the code for creating the individual tables from the CSV files. 
+####  - QueryCreation.sql, contains the code for creating the queries related to the above questions. 
 ### ERD Visual
-####  - (InsertPNGFileName), opens to display the ERD for the CSV files. Shows all relationships between variables along with variable defintions.
+####  - SQLChallengeERD.png, opens to display the ERD for the CSV files. Shows all relationships between variables along with variable defintions.
 
